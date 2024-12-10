@@ -68,3 +68,5 @@ def test(model, dataloader, loss_fn):
 
     # バッチ数で割って、平均値を返す
     return loss_total / len(dataloader)
+
+# コメント
