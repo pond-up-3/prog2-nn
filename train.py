@@ -61,7 +61,7 @@ learning_rate = 0.003  # 学習率
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
 # criterion（規準）とも呼ぶ
 
-n_epochs = 5
+n_epochs = 20
 
 loss_train_history = []
 loss_test_history = []
