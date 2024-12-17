@@ -1,11 +1,8 @@
 import matplotlib.pyplot as plt
-
 import torch
 from torchvision import datasets
 import torchvision.transforms.v2 as transforms
-
 import models
-
 
 # モデルをインスタンス化する
 model = models.MyModel()
@@ -31,7 +28,6 @@ with torch.no_grad():
     logits = model(image)
 
 print(logits)
-
 
 # ロジットのグラフ
 # plt.bar(range(len(logits[0])), logits[0])

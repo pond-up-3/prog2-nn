@@ -14,7 +14,6 @@ print(f'numbers of datasets:{len(ds_train)}')
 image, target = ds_train[0]
 print(type(image), target)
 
-
 plt.imshow(image, cmap='gray_r')
 plt.title(target)
 plt.show()
